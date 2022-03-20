@@ -4,7 +4,7 @@ Geometry library with support for simple shapes (line segments, polygons, circle
 
 ## Code sample
 
-```
+```C#
 Segment s1 = new Segment(new Vector2(-1, -1), new Vector2(1, 1));
 Segment s2 = new Segment(new Vector2(-1, 1), new Vector2(1, -1));
 Console.WriteLine("s1 x s2 : " + s1.Overlaps(s2));  //true
