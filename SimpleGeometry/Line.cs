@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace SimpleGeometry {
     public struct Line {
-        public const float bigSlope = 1000f;
         public float slope;
         public float yIntercept;
 
